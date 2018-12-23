@@ -10,7 +10,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <p>
           </p>
-		<h1>Welcome to REACT App 2.0</h1>
+		<h1>Welcome to REACT App T2.0</h1>
           <a
             className="App-link"
             href="https://reactjs.org"
