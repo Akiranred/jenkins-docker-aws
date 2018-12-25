@@ -9,13 +9,6 @@ pipeline {
             }
         }
 	
-	stage('Run Container') {
-	    agent any
-            steps {
-                sh 'docker run ravi2krishna/docker-react npm run test -- --coverage'
-            }
-        }
-	
 	stage('Deploy AWS Beanstalk') {
 	    agent any
 	    steps {
